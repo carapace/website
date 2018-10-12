@@ -45,9 +45,11 @@ workflows:
     jobs:
       - build
       - deploy-staging:
+          context: firebase
           requires:
             - build
       - deploy-prod:
+          context: firebase
           requires:
             - build
             - hold
