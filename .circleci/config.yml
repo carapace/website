@@ -52,7 +52,6 @@ workflows:
           context: firebase
           requires:
             - build
-            - hold
           filters:
             branches:
               only: master
