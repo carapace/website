@@ -2026,44 +2026,29 @@ amp-img.circle img {
 }
 
 .carapace-type-github,.carapace-type-github:visited {
-  color: #fd68ae
+  color: #333
 }
 
 .carapace-type-slack,.carapace-type-slack:visited {
-  color: #32dada
+  color: #e01563
 }
 
-.carapace-type-drinks,.carapace-type-drinks:visited {
-  color: #4e93f8
+.carapace-type-docker,.carapace-type-docker:visited {
+  color: #0db7ed
 }
 
-.carapace-type-fashion,.carapace-type-fashion:visited {
-  color: #f1c363
+.carapace-type-medium,.carapace-type-medium:visited {
+  color: #000000
 }
 
-.carapace-type-food,.carapace-type-food:visited {
-  color: #aa5efd
+.carapace-type-telegram,.carapace-type-telegram:visited {
+  color: #0088cc
 }
 
-.carapace-type-music,.carapace-type-music:visited {
-  color: #ec8936
+.carapace-type-linkedin,.carapace-type-linkedin:visited {
+  color: #0077b5
 }
 
-.carapace-type-nature,.carapace-type-nature:visited {
-  color: #14b52a
-}
-
-.carapace-type-nightlife,.carapace-type-nightlife:visited {
-  color: #e83a3a
-}
-
-.carapace-type-tours,.carapace-type-tours:visited {
-  color: #0ece9e
-}
-
-.carapace-type-water,.carapace-type-water:visited {
-  color: #3abee8
-}
 
 .carapace-overflow-container {
   display: inline-block;
@@ -3140,7 +3125,7 @@ amp-img.circle img {
 }
 
 .carapace-hero-heading {
-  color: #808080;
+  color: #145de8;
   font-size: 3.75rem;
   font-weight: 700;
   letter-spacing: normal;
@@ -3353,6 +3338,14 @@ amp-img.circle img {
   .carapace-footer .carapace-input-group>.carapace-input {
     border-color: #e3e5e8
   }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
 }
 
 .carapace-featured-heading {
